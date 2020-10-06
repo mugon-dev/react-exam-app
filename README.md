@@ -2,7 +2,9 @@
 
 ### 사진
 
-![main](./main.png)
+![list](./list.png)
+![detail](./detail.png)
+![insert](./insert.png)
 
 ### 설치
 
@@ -13,6 +15,7 @@
 - ESLint
 - Prettier
 - Reactjs code snippets
+- vscode-styled-component
 
 ### .prettier 파일생성
 
@@ -30,6 +33,7 @@
 ### 라이브러리
 
 - npm install --save styled-components
+- npm i react-router-dom
 
 ### Git 관리
 
@@ -44,9 +48,3 @@
 - 다운로드
 - git pull origin master (다운로드)
 - npm install (의존성 다운로드 - node_modules 설치)
-
-### Git 규칙
-
-- 변수명
-  - 변수명 + 속성 (ex: Style)
-  - div ===> Box
