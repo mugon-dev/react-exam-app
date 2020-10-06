@@ -2,9 +2,9 @@
 
 ### 사진
 
-![list](./list.png)
-![detail](./detail.png)
-![insert](./insert.png)
+![list](./list.PNG)
+![detail](./detail.PNG)
+![insert](./insert.PNG)
 
 ### 설치
 
