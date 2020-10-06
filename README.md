@@ -1,68 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Style-Component-연습
 
-## Available Scripts
+### 사진
 
-In the project directory, you can run:
+![main](./main.png)
 
-### `yarn start`
+### 설치
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- npx create-react-app exam-app
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### 확장 프로그램
 
-### `yarn test`
+- ESLint
+- Prettier
+- Reactjs code snippets
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### .prettier 파일생성
 
-### `yarn build`
+```json
+{
+  "singleQuote": true,
+  "semi": true,
+  "useTabs": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "printWidth": 80
+}
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 라이브러리
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- npm install --save styled-components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Git 관리
 
-### `yarn eject`
+- git init (박스 3개 만들기)
+- git add . (두번째 박스 옮기기 - 사진찍기)
+- git commit -m "" (세번째 박스로 옮기기 - 사진첩 옮기기)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- git hub 저장소 만들기
+- git remote add origin 주소.git (원격지 연결)
+- git push origin master (업로드)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 다운로드
+- git pull origin master (다운로드)
+- npm install (의존성 다운로드 - node_modules 설치)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Git 규칙
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- 변수명
+  - 변수명 + 속성 (ex: Style)
+  - div ===> Box
